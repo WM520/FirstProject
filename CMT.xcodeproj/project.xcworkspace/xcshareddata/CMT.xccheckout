@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>08AC2923-6A70-4CA5-9FE2-13E7F6783011</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CMT</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>58188342-576f-467f-b7f0-cb3c976ca076</key>
+		<string>svn://192.168.84.120</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>svn/mycode/CMT/CMT.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>58188342-576f-467f-b7f0-cb3c976ca076</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>58188342-576f-467f-b7f0-cb3c976ca076</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>58188342-576f-467f-b7f0-cb3c976ca076</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CMTT</string>
+		</dict>
+	</array>
+</dict>
+</plist>

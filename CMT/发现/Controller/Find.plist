@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>image</key>
+		<string>01.png</string>
+		<key>name</key>
+		<string>精品小街</string>
+		<key>describe</key>
+		<string>9块9包邮,物超所值。</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>02.png</string>
+		<key>name</key>
+		<string>潮品专区</string>
+		<key>describe</key>
+		<string>每日潮品,必有所爱。</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>03.png</string>
+		<key>name</key>
+		<string>情侣空间</string>
+		<key>describe</key>
+		<string>这里有看起来不错的情侣装。</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>04.png</string>
+		<key>name</key>
+		<string>穿衣学堂</string>
+		<key>describe</key>
+		<string>学习最潮最fasion的穿衣技巧。</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>05.png</string>
+		<key>name</key>
+		<string>好看么</string>
+		<key>describe</key>
+		<string>型男自拍专区,大家来点赞！</string>
+	</dict>
+</array>
+</plist>

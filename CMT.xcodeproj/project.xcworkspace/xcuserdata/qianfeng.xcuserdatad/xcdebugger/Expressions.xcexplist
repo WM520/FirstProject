@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[CMTHomeController collectionView:cellForItemAtIndexPath:]:CMTHomeController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[CMTHomeController collectionView:didSelectItemAtIndexPath:]:CMTHomeController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "vc">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__32-[CMTHomeController loadTopData]_block_invoke:CMTHomeController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[CMTDetailController tableView:cellForRowAtIndexPath:]:CMTDetailController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_xinxiLB">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CMTJXTabCell collectionView:numberOfItemsInSection:]:CMTJXTabCell.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_modelArray">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__35-[CMTDetailController loadUserData]_block_invoke:CMTDetailController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__29-[CMTHomeController loadData]_block_invoke_289:CMTHomeController.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="LoversSpaceCell" id="gTV-IL-0wX" customClass="LoversSpaceCell">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="260"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="150" height="260"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appdetail_background.png" translatesAutoresizingMaskIntoConstraints="NO" id="JBF-bX-Yp3">
+                        <rect key="frame" x="0.0" y="0.0" width="150" height="260"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w6t-NT-jCM">
+                        <rect key="frame" x="0.0" y="0.0" width="150" height="167"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HT4-M0-lAq">
+                        <rect key="frame" x="8" y="166" width="134" height="52"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="￥" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NB6-DC-n2Z">
+                        <rect key="frame" x="8" y="226" width="134" height="26"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="1" green="0.1885799878832416" blue="0.2395830393263515" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pt5-XL-IzC">
+                        <rect key="frame" x="8" y="221" width="134" height="1"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="JBF-bX-Yp3" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="24u-Cz-RVb"/>
+                <constraint firstItem="JBF-bX-Yp3" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="OAN-t0-tYl"/>
+                <constraint firstAttribute="trailing" secondItem="JBF-bX-Yp3" secondAttribute="trailing" id="tXP-dk-BkU"/>
+                <constraint firstAttribute="bottom" secondItem="JBF-bX-Yp3" secondAttribute="bottom" id="uQ8-OY-9YW"/>
+            </constraints>
+            <size key="customSize" width="135" height="230"/>
+            <connections>
+                <outlet property="desLabel" destination="HT4-M0-lAq" id="TB2-Dh-UyH"/>
+                <outlet property="image" destination="w6t-NT-jCM" id="xt0-JA-88Z"/>
+                <outlet property="priceLabel" destination="NB6-DC-n2Z" id="zJW-NH-CQN"/>
+            </connections>
+            <point key="canvasLocation" x="284" y="230"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="appdetail_background.png" width="390" height="341"/>
+    </resources>
+</document>

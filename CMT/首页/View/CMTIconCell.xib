@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="iconcell" id="gTV-IL-0wX" customClass="CMTIconCell">
+            <rect key="frame" x="0.0" y="0.0" width="60" height="80"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="60" height="80"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bgL-Ao-qlR">
+                        <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="60" id="w8W-pO-OLB"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yV4-7j-dUP">
+                        <rect key="frame" x="0.0" y="60" width="60" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="bgL-Ao-qlR" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="75w-15-o5R"/>
+                <constraint firstAttribute="trailing" secondItem="bgL-Ao-qlR" secondAttribute="trailing" constant="-82" id="DBD-lq-jYb"/>
+                <constraint firstAttribute="trailing" secondItem="bgL-Ao-qlR" secondAttribute="trailing" id="Fps-Z3-ToF"/>
+                <constraint firstAttribute="bottom" secondItem="yV4-7j-dUP" secondAttribute="bottom" id="H7Y-T8-osu"/>
+                <constraint firstItem="bgL-Ao-qlR" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="JT8-yT-XNl"/>
+                <constraint firstItem="yV4-7j-dUP" firstAttribute="top" secondItem="bgL-Ao-qlR" secondAttribute="bottom" id="Tac-Op-1eJ"/>
+                <constraint firstItem="yV4-7j-dUP" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="iiN-fC-Ede"/>
+                <constraint firstAttribute="trailing" secondItem="yV4-7j-dUP" secondAttribute="trailing" id="z3X-qT-88M"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="DBD-lq-jYb"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="iconImage" destination="bgL-Ao-qlR" id="upg-2A-r9f"/>
+                <outlet property="title" destination="yV4-7j-dUP" id="gQB-tL-EyP"/>
+            </connections>
+            <point key="canvasLocation" x="187" y="204"/>
+        </collectionViewCell>
+    </objects>
+</document>

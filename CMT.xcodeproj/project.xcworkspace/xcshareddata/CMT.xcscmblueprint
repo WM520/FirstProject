@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "58188342-576f-467f-b7f0-cb3c976ca076++808",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "58188342-576f-467f-b7f0-cb3c976ca076++808" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5EEFC39DFC4A0099392391F7E2A63EB1080524CB" : 0,
+    "58188342-576f-467f-b7f0-cb3c976ca076++808" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "08AC2923-6A70-4CA5-9FE2-13E7F6783011",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5EEFC39DFC4A0099392391F7E2A63EB1080524CB" : "",
+    "58188342-576f-467f-b7f0-cb3c976ca076++808" : "CMT\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CMT",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CMT.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/192.168.84.120",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "58188342-576f-467f-b7f0-cb3c976ca076++808"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.oschina.net:wm878323\/WMXDS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5EEFC39DFC4A0099392391F7E2A63EB1080524CB"
+    }
+  ]
+}
